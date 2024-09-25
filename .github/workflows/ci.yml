@@ -23,7 +23,12 @@ jobs:
            - name: "Clone the repository"
              uses: actions/checkout@v2 
             
-           - name: "Inatall dependencr"
+           - name: "List diractories"
+             run: ls  
+           
+           - name: "Inatall dependencies"
              run: npm install
 
+           - name: "List diractories"
+             run: ls
             
